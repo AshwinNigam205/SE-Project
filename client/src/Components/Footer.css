@@ -6,6 +6,9 @@
 
 #footer{
     background-color: #0f3046;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 #footer-text{

@@ -19,15 +19,15 @@ const Navbar = () => {
             <li className="nav-item">
             <NavLink className="nav-link" to="/personal"><span class="nav-title">Personal Info</span></NavLink>
             </li>
-            {/* <li className="nav-item">
-            <NavLink className="nav-link" to="/srs"><span class="nav-title">SRS Entry</span></NavLink>
-            </li> */}
+            <li className="nav-item">
+            <NavLink className="nav-link" to="/exam_details"><span class="nav-title">Exam Details</span></NavLink>
+            </li>
             <li className="nav-item">
             <NavLink className="nav-link" to="/payment"><span class="nav-title">Pay Fees Online</span></NavLink>
             </li>
-            <li className="nav-item">
-            <NavLink className="nav-link" to="/contact"><span class="nav-title">Contact</span></NavLink>
-            </li>
+            {/* <li className="nav-item">
+            <NavLink className="nav-link" to="/timetable"><span class="nav-title">Timetable</span></NavLink>
+            </li> */}
             <li className="nav-item" id = "logout">
             <NavLink className="nav-link" to="/logout"><span class="nav-title">Logout</span></NavLink>
             </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
               Others
               </a>
               <div id="drop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <NavLink className="nav-link" to="/personal"><span class="nav-title">Action</span></NavLink>
+              <NavLink className="nav-link" to="/timetable"><span class="nav-title">Timetable</span></NavLink>
               <NavLink className="nav-link" to="/personal"><span class="nav-title">Action</span></NavLink>
               <NavLink className="nav-link" to="/personal"><span class="nav-title">Action</span></NavLink>
               </div>
@@ -55,15 +55,15 @@ const Navbar = () => {
             <li className="nav-item">
             <NavLink className="nav-link" to="/personal"><span class="nav-title">Personal Info</span></NavLink>
             </li>
-            {/* <li className="nav-item">
-            <NavLink className="nav-link" to="/srs"><span class="nav-title">SRS Entry</span></NavLink>
-            </li> */}
             <li className="nav-item">
-            <NavLink className="nav-link" to="/contact"><span class="nav-title">Contact</span></NavLink>
+            <NavLink className="nav-link" to="/exam_details"><span class="nav-title">Exam Details</span></NavLink>
             </li>
             <li className="nav-item" id = "register">
             <NavLink className="nav-link" to="/registeration"><span class="nav-title">Register</span></NavLink>
             </li>
+            {/* <li className="nav-item">
+            <NavLink className="nav-link" to="/timetable"><span class="nav-title">Timetable</span></NavLink>
+            </li> */}
             <li className="nav-item" id = "login">
             <NavLink className="nav-link" to="/login"><span class="nav-title">Login</span></NavLink>
             </li>
@@ -72,7 +72,7 @@ const Navbar = () => {
               Others
               </a>
               <div id="drop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <NavLink className="nav-link" to="/login"><span class="nav-title">Action</span></NavLink>
+                <NavLink className="nav-link" to="/timetable"><span class="nav-title">Timetable</span></NavLink>
                 <NavLink className="nav-link" to="/personal"><span class="nav-title">Action</span></NavLink>
                 <NavLink className="nav-link" to="/personal"><span class="nav-title">Action</span></NavLink>
                 {/* <a class="dropdown-item" href="#"><NavLink className="nav-link" to="/login">Something else here</NavLink></a> */}

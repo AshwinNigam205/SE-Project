@@ -9,10 +9,13 @@ import Personal from './Components/Personal';
 import Logout from './Components/Logout';
 import Home from './Components/Home';
 import Payment from './Components/Payment';
+import Exam_Details from './Components/Exam_Details';
+import Timetable from './Components/Timetable';
 import { createContext, useReducer } from 'react';
 import { initialState, reducer} from '../src/reducer/UseReducer';
 import {loadStripe} from "@stripe/stripe-js"
 import {Elements} from "@stripe/react-stripe-js"
+
 
 export const UserContext = createContext();
 
@@ -38,6 +41,12 @@ const App = () => {
       </Route>
       <Route path = "/registeration">
         <Registeration/>
+      </Route>
+      <Route path = "/exam_details">
+        <Exam_Details/>
+      </Route>
+      <Route path = "/timetable">
+        <Timetable/>
       </Route>
       <Route path = "/payment">
         <Elements stripe={promise}>

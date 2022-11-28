@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import {useHistory} from 'react-router-dom'
-import './Personal.css';
+import './Exam_Details.css';
 
-const Personal = () => {
+const Exam_Details = () => {
   const history = useHistory();
   const [userData, setUserData] = useState({});
 
@@ -39,7 +39,7 @@ const Personal = () => {
     return (
         <>
             <h4 className="heading">Personal Information</h4>
-            <table className="persondets">
+            <table>
              <tr className="table_info">
                 <tr>
                     <td class="field-name">Name</td>
@@ -105,4 +105,4 @@ const Personal = () => {
     )
 }
 
-export default Personal
+export default Exam_Details
